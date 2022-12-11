@@ -11,3 +11,12 @@
 ```terminal
 >npm start
 ```
+
+## API
+
+<https://randomuser.me/>
+
+<https://randomuser.me/documentation#results>
+
+<https://randomuser.me/api/?results=10>
+
