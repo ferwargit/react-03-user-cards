@@ -1,5 +1,13 @@
 .App {
   padding: 4rem;
+  /*  */
+}
+
+.App h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  text-align: center;
 }
 
 .cards-container {
@@ -15,4 +23,5 @@
   font-size: 1rem;
   padding: 1rem;
   border-radius: 0.5rem;
+  /*  */
 }
