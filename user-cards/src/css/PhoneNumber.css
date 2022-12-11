@@ -1,3 +1,7 @@
 .phone-number {
   font-style: italic;
 }
+
+.phone-number p {
+  margin: 0;
+}
