@@ -1,3 +1,5 @@
+import '../css/Location.css'
+
 const Location = ({ location }) => {
   return (
     <>
