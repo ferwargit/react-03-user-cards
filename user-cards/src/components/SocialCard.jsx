@@ -1,5 +1,6 @@
 import '../css/SocialCard.css'
 import Location from './Location'
+import PhoneNumber from './PhoneNumber'
 
 const SocialCard = ({ userData }) => {
   return (
@@ -10,6 +11,8 @@ const SocialCard = ({ userData }) => {
         </div>
         <div className="card__body">
           <Location location={userData.location} />
+          <PhoneNumber type="Home" number={userData.phone} />
+          <PhoneNumber type="Mobile" number={userData.phone} />
           <div className="card__image">
             <img src={userData.picture.medium} alt='' />
           </div>
